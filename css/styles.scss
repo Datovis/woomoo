@@ -1,0 +1,16 @@
+@import "compass/utilities/text/replacement";
+
+body {
+	background: lighten(#EBEBEB, 3%) url("../img/backlit.png") center 160px no-repeat;
+	margin-bottom: 60px;
+}
+
+.woomoo-logo {
+	margin: 100px auto 0 auto;
+	@include replace-text-with-dimensions("woomooface.png");
+}
+
+.teaser-text {
+	margin: 70px auto 0 auto;
+	@include replace-text-with-dimensions("makeapps.png");
+}
