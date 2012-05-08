@@ -10,7 +10,7 @@ body {
   text-indent: 110%;
   white-space: nowrap;
   overflow: hidden;
-  background-image: url('/img/woomooface.png?1336038284');
+  background-image: url('../img/woomooface.png?1336099662');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 188px;
@@ -23,7 +23,7 @@ body {
   text-indent: 110%;
   white-space: nowrap;
   overflow: hidden;
-  background-image: url('/img/makeapps.png?1336038284');
+  background-image: url('../img/makeapps.png?1336099662');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 328px;
