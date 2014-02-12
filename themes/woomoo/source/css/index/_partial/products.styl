@@ -3,27 +3,39 @@
 
 .product-logo
   hide-text()
-  margin: 60px auto 35px
+  display: block
 
 #pop-logo
   width: 150px
   height: 143px
   image: "images/bg-bg-pop-logo-mobile.png" @width @height
+  margin: 60px auto 35px
+  @media mq-normal
+    width: 300px
+    height: 100px
+    image: "images/bg-bg-pop-logo.png" @width @height
+    margin: 55px auto 20px
 
 .product-desc
-  padding: 0 20px
+  margin: 0 20px
   font-size: 18px
   font-weight: bold
-  text-align: center
   line-height: 25px
   opacity: 0.4
   color: #000
+  @media mq-normal
+    width: 400px
+    font-size: 22px
+    margin: 0 auto
+    line-height: 30px
 
 .product-platform-list
   clearfix()
   padding: 24px 0 90px
   width: 30px * 3 + 34px * 2
   margin: 0 auto
+  @media mq-normal
+    padding: 18px 0 50px
 
 $product-platform
   hide-text()
@@ -44,3 +56,10 @@ $product-platform
 .product-platform-windows
   @extend $product-platform
   image: "images/bg-icon-windows.png" 30px
+
+#pop-devices
+  @media mq-normal
+    width: 601px
+    height: 390px
+    image: "images/bg-device.png" @width @height
+    margin: 0 auto

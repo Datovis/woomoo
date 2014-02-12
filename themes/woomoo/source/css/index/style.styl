@@ -7,6 +7,10 @@ global-reset()
 body
   font-family: font-title
 
+.screen
+  text-align: center
+  position: relative
+
 .screen-title
   font-size: 25px
   font-weight: bold
@@ -24,8 +28,10 @@ body
     margin-left: -25px
     border-bottom: 1px solid #fff
     width: 50px
+  @media mq-normal
+    padding-top: 40px
 
-@import "_partial/title"
+@import "_partial/intro"
 @import "_partial/crew"
 @import "_partial/products"
 @import "_partial/contact"

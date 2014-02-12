@@ -1,14 +1,22 @@
 #screen-crew
+  clearfix()
   background: screen-crew
 
+#screen-crew-title
+  margin-bottom: 14px
+  @media mq-normal
+    margin-bottom: 20px
+
 .member-wrap
-  text-align: center
-  padding: 20px
+  padding: 20px 0
   display: none
-  &:first-of-type
-    padding-top: 34px
   &.vip
     display: block
+  @media mq-normal
+    display: block
+    float: left
+    width: (100 / 3)%
+    padding: 24px 0
 
 .member-img
   width: 62px
@@ -22,6 +30,8 @@
 
 .member-social
   height: 38px
+  @media mq-normal
+    height: 40px
 
 .member-name
   color: #fff
