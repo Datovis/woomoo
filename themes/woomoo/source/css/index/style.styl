@@ -1,0 +1,31 @@
+@import "nib"
+@import "_variables"
+@import "../_util/mixin"
+
+global-reset()
+
+body
+  font-family: font-title
+
+.screen-title
+  font-size: 25px
+  font-weight: bold
+  color: #fff
+  opacity: 0.5
+  text-transform: uppercase
+  text-align: center
+  position: relative
+  padding: 30px 0 20px
+  &:before
+    content: ""
+    position: absolute
+    bottom: 0
+    left: 50%
+    margin-left: -25px
+    border-bottom: 1px solid #fff
+    width: 50px
+
+@import "_partial/title"
+@import "_partial/crew"
+@import "_partial/products"
+@import "_partial/contact"

@@ -1,0 +1,46 @@
+#screen-products
+  background: screen-products
+
+.product-logo
+  hide-text()
+  margin: 60px auto 35px
+
+#pop-logo
+  width: 150px
+  height: 143px
+  image: "images/bg-bg-pop-logo-mobile.png" @width @height
+
+.product-desc
+  padding: 0 20px
+  font-size: 18px
+  font-weight: bold
+  text-align: center
+  line-height: 25px
+  opacity: 0.4
+  color: #000
+
+.product-platform-list
+  clearfix()
+  padding: 24px 0 90px
+  width: 30px * 3 + 34px * 2
+  margin: 0 auto
+
+$product-platform
+  hide-text()
+  width: 30px
+  height: 30px
+  margin-left: 34px
+  float: left
+
+.product-platform-iphone
+  @extend $product-platform
+  image: "images/bg-icon-apple.png" 30px
+  margin-left: 0
+
+.product-platform-android
+  @extend $product-platform
+  image: "images/bg-icon-android.png" 30px
+
+.product-platform-windows
+  @extend $product-platform
+  image: "images/bg-icon-windows.png" 30px

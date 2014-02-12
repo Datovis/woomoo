@@ -3,7 +3,7 @@
 ## Source: https://github.com/tommy351/hexo/
 
 # Site
-title: Hexo
+title: woomoo.in
 subtitle:
 description:
 author: John Doe
@@ -12,9 +12,9 @@ language:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://woomoo.in
 root: /
-permalink: :year/:month/:day/:title/
+permalink: blog/:title/
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -80,8 +80,9 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: landscape
+theme: woomoo
 exclude_generator:
+- home
 
 # Markdown
 ## https://github.com/chjj/marked

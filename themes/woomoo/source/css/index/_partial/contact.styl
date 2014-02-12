@@ -1,0 +1,82 @@
+#screen-contact
+  background: screen-contact
+
+$contact-text
+  color: #fff
+  font-size: 20px
+  margin-top: 54px
+  text-align: center
+  position: relative
+  display: block
+  &:before
+    content: ""
+    position: absolute
+    top: 0
+    left: 50%
+
+#contact-location
+  @extend $contact-text
+  padding-top: 15px + 31px
+  &:before
+    width: 24px
+    height: 31px
+    margin-left: @width * -0.5
+
+#contact-email
+  @extend $contact-text
+  padding-top: 15px + 21px
+  text-decoration: none
+  &:before
+    width: 30px
+    height: 21px
+    margin-left: @width * -0.5
+    image: "images/bg-icon-mail.png" @width @height
+
+#contact-blog
+  text-decoration: none
+  color: #fff
+  font-size: 15px
+  border: 2px solid rgba(255, 255, 255, 0.5)
+  height: 33px
+  line-height: @height
+  width: 120px
+  display: block
+  margin: 0 auto
+  border-radius: 5px
+  text-align: center
+  margin-top: 54px
+
+#footer
+  padding: 54px 0 30px
+
+#footer-links
+  clearfix()
+  width: 25px * 3 + 34px * 2
+  margin: 0 auto
+  padding: 0 0 20px
+
+$footer-icon
+  hide-text()
+  width: 25px
+  height: 25px
+  float: left
+  margin-left: 34px
+
+#footer-twitter-link
+  @extend $footer-icon
+  image: "images/bg-icon-twitter.png" 25px
+  margin-left: 0
+
+#footer-instagram-link
+  @extend $footer-icon
+  image: "images/bg-icon-instagram.png" 25px
+
+#footer-angellist-link
+  @extend $footer-icon
+  image: "images/bg-icon-angellist.png" 25px
+
+#footer-copyright
+  font-size: 10px
+  color: #fff
+  opacity: 0.5
+  text-align: center
