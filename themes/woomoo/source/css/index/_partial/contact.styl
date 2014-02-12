@@ -1,5 +1,7 @@
-#screen-contact
+#contact
   background: screen-contact
+  @media mq-mobile
+    padding-bottom: 30px + 54px + 57px
 
 $contact-text
   color: #fff
@@ -19,6 +21,7 @@ $contact-text
   &:before
     width: 24px
     height: 31px
+    image: "images/bg-icon-location.png" @width @height
     margin-left: @width * -0.5
   @media mq-normal
     display: none
@@ -66,7 +69,10 @@ $contact-text
     display: none
 
 #footer
-  padding: 54px 0 30px
+  position: absolute
+  left: 0
+  right: 0
+  bottom: 30px
 
 #footer-links
   clearfix()

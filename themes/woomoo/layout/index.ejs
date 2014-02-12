@@ -12,9 +12,31 @@ layout: false
   <%- partial('_partial/google-analytics') %>
 </head>
 <body>
-  <%- partial('_screen/intro') %>
-  <%- partial('_screen/crew') %>
-  <%- partial('_screen/products') %>
-  <%- partial('_screen/contact') %>
+  <div id="wrap">
+    <%- partial('_screen/intro') %>
+    <%- partial('_screen/crew') %>
+    <%- partial('_screen/products') %>
+    <%- partial('_screen/contact') %>
+    <div id="indicator">
+      <a href="#intro" id="indicator-intro" class="indicator-link active">
+        <i class="indicator-background"></i>
+        <span class="indicator-text">Intro</span>
+      </a>
+      <a href="#crew" id="indicator-crew" class="indicator-link">
+        <i class="indicator-background"></i>
+        <span class="indicator-text">Crew</span>
+      </a>
+      <a href="#products" id="indicator-products" class="indicator-link">
+        <i class="indicator-background"></i>
+        <span class="indicator-text">Products</span>
+      </a>
+      <a href="#contact" id="indicator-contact" class="indicator-link">
+        <i class="indicator-background"></i>
+        <span class="indicator-text">Contact</span>
+      </a>
+    </div>
+  </div>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <%- js('js/script') %>
 </body>
 </html>

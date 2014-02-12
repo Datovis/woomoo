@@ -1,19 +1,22 @@
-#screen-intro
+#intro
   background: screen-intro
-  padding: 60px 0
-  @media mq-normal
-    padding-top: 160px
+  @media mq-mobile
+    padding-bottom: 60px
 
 #logo
   hide-text()
   width: 176px
   height: 143px
   image: "images/bg-bg-logo-mobile.png" @width @height
-  margin: 0 auto
+  margin: 0 auto 60px
+  padding-top: 60px
+  background-position: bottom
+  background-repeat: no-repeat
   @media mq-normal
     width: 242px
     height: 200px
     image: "images/bg-bg-logo.png" @width @height
+    padding-top: 160px
 
 #tagline
   font-size: 12px
@@ -21,7 +24,6 @@
   width: 280px
   line-height: 20px
   margin: 0 auto
-  padding-top: 60px
   @media mq-normal
     font-size: 20px
     line-height: 30px
@@ -30,6 +32,7 @@
 #intro-blog
   display: none
   @media mq-normal
+    display: block
     font-size: 15px
     color: #e6dfce
     border: 2px solid rgba(154, 138, 91, 0.3)
@@ -42,3 +45,22 @@
     line-height: @height
     text-align: center
     text-decoration: none
+
+#scroll-down
+  display: none
+  @media mq-normal
+    display: block
+    font-size: 18px
+    color: rgba(154, 138, 91, 0.3)
+    text-decoration: none
+    position: absolute
+    bottom: 30px
+    left: 0
+    right: 0
+    margin: auto
+    padding-bottom: 32px
+    image: "images/bg-btn-arrow-down-normal.png" 30px 17px
+    background-repeat: no-repeat
+    background-position: bottom
+    &:hover
+      image: "images/bg-btn-arrow-down-hover.png" 30px 17px

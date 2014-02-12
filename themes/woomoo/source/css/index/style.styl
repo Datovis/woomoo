@@ -4,8 +4,19 @@
 
 global-reset()
 
+html, body
+  width: 100%
+  height: 100%
+  overflow: hidden
+
 body
   font-family: font-title
+
+#wrap
+  position: relative
+  width: 100%
+  height: 100%
+  overflow: auto
 
 .screen
   text-align: center
@@ -35,3 +46,4 @@ body
 @import "_partial/crew"
 @import "_partial/products"
 @import "_partial/contact"
+@import "_partial/indicator"
