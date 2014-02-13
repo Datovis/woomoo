@@ -1,0 +1,6 @@
+<% if (post.author || config.author){ %>
+  <div class="article-author">
+    <img src="http://placekitten.com/28/28" class="article-author-avatar">
+    <span class="article-author-text">Posted by <%= post.author || config.author %></span>
+  </div>
+<% } %>

@@ -6,7 +6,7 @@
 title: woomoo.in
 subtitle:
 description:
-author: John Doe
+author: LeiLei Wu
 email:
 language:
 
@@ -16,7 +16,7 @@ url: http://woomoo.in
 root: /
 permalink: blog/:title/
 tag_dir: tags
-archive_dir: archives
+archive_dir: blog
 category_dir: categories
 code_dir: downloads/code
 

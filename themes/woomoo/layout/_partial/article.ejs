@@ -1,0 +1,22 @@
+<div class="article article-type-<%= post.layout %>" itemscope itemprop="blogPost">
+  <div class="article-header">
+    <%- partial('post/title', {class_name: 'article-title'}) %>
+    <%- partial('post/date') %>
+  </div>
+  <div class="article-entry" itemprop="articleBody">
+    <% if (index && post.excerpt){ %>
+      <%- post.excerpt %>
+      <% if (theme.excerpt_link){ %>
+        <p class="article-more-link">
+          <a href="<%- config.root %><%- post.path %>#more">Read more</a>
+        </p>
+      <% } %>
+    <% } else { %>
+      <%- post.content %>
+    <% } %>
+  </div>
+  <div class="article-footer">
+    <%- partial('post/author') %>
+    <%- partial('post/share') %>
+  </div>
+</div>

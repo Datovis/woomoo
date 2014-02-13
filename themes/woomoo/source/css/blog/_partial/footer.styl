@@ -1,0 +1,31 @@
+#footer
+  clearfix()
+  background: color-title
+  text-align: center
+  font-size: 12px
+  padding: 40px 0
+  line-height: 15px
+
+#footer-home-link
+  color: #fff
+  text-decoration: none
+  border-bottom: 1px solid #fff
+  &:hover
+    color: #f9bca7
+    border-bottom-color: @color
+  @media mq-normal
+    float: left
+
+#copyright
+  color: rgba(0, 0, 0, 0.5)
+  padding-top: 28px
+  a
+    color: rgba(0, 0, 0, 0.5)
+  @media mq-normal
+    float: right
+    padding-top: 0
+
+#copyright-hexo
+  @media mq-normal
+    display: block
+    text-align: right
