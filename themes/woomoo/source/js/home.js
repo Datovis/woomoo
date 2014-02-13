@@ -61,4 +61,8 @@
 
   $(window).on('resize', setScreenSize);
   setScreenSize();
+
+  $('#mobile-nav-toggle').on('click', function(){
+    $('#mobile-nav').toggleClass('on');
+  });
 })(jQuery);
