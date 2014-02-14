@@ -3,7 +3,7 @@
   background: screen-crew
 
 #screen-crew-title
-  margin-bottom: 14px
+  margin-bottom: 34px
   @media mq-normal
     margin-bottom: 20px
 
@@ -12,7 +12,7 @@
   margin: 0 auto
 
 .member-wrap
-  padding: 20px 0 0
+  margin: 20px 0
   display: none
   &.vip
     display: block
@@ -20,7 +20,7 @@
     display: block
     float: left
     width: (100 / 3)%
-    padding: 24px 0 0
+    margin: 24px 0
 
 .member-img
   width: 62px
@@ -47,6 +47,8 @@
   font-size: 12px
   display: block
   padding: 10px 0 15px
+  @media mq-normal
+    font-size: 13px
 
 .member-desc
   color: #000
@@ -55,3 +57,23 @@
   width: 200px
   height: 60px
   margin: 0 auto
+
+$member-social-link
+  width: 20px
+  height: @width
+  font-size: @width
+  line-height: @width
+  text-align: center
+  opacity: 0.5
+  color: #fff
+  font-family: font-icon
+  margin-top: (38px - @width) * 0.5
+  display: inline-block
+  text-decoration: none
+  @media mq-normal
+    margin-top: (40px - @width) * 0.5
+
+.member-twitter-link
+  @extend $member-social-link
+  &:before
+    content: "\f099"
