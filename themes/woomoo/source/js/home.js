@@ -1,29 +1,27 @@
 (function($){
   var screens = $('.screen'),
+    $body = $('html, body'),
+    $window = $(window),
     currentId = 'intro';
 
   var setIndicator = function(id){
+    if (currentId === id) return;
+
     currentId = id;
 
     $('.indicator-link').removeClass('active');
     $('#indicator-' + id).addClass('active');
   };
 
-  var scrollTo = function(id, setHash){
+  var scrollTo = function(id){
     var target = $('#' + id);
 
-    $('#wrap').animate({
+    $body.animate({
       scrollTop: target[0].offsetTop
-    }, 800, function(){
-      if (setHash) window.location.hash = '#' + id;
-    });
+    }, 800);
   };
 
-  var onHashChange = function(){
-    scrollTo(window.location.hash.substring(1));
-  };
-
-  $('#wrap').on('scroll', function(){
+  $window.on('scroll', function(){
     var scrollTop = $(this).scrollTop(),
       id;
 
@@ -31,24 +29,19 @@
       if (scrollTop >= this.offsetTop - 10) id = this.id;
     });
 
-    if (id !== currentId) setIndicator(id);
-  }).on('click', 'a', function(e){
+    setIndicator(id);
+  });
+
+  $body.on('click', 'a', function(e){
     if (this.hash){
       e.preventDefault();
-      scrollTo(this.hash.substring(1), true);
+      scrollTo(this.hash.substring(1));
     }
   });
 
-  $(window).on('hashchange', onHashChange);
-
-  if (window.location.hash){
-    currentId = window.location.hash.substring(1);
-    setIndicator(currentId);
-  }
-
   var setScreenSize = function(){
-    var wrapWidth = $('#wrap').width(),
-      wrapHeight = $('#wrap').height();
+    var wrapWidth = $window.width(),
+      wrapHeight = $window.height();
 
     screens.not('#crew').each(function(){
       if (wrapWidth > 768){
@@ -59,7 +52,7 @@
     });
   };
 
-  $(window).on('resize', setScreenSize);
+  $window.on('resize', setScreenSize);
   setScreenSize();
 
   $('#mobile-nav-toggle').on('click', function(){
