@@ -1,6 +1,7 @@
 #team
   clearfix()
   background: screen-team
+  padding-bottom: 60px
 
 #screen-team-title
   margin-bottom: 34px
@@ -13,9 +14,6 @@
 
 .member-wrap
   margin: 20px 0
-  display: none
-  &.vip
-    display: block
   @media mq-normal
     display: block
     float: left
@@ -27,10 +25,15 @@
   height: 62px
   border: 3px solid #fff
   border-radius: 50%
-  display: block
   overflow: hidden
   margin: 0 auto
   background: #505050
+
+members = ben, shao, leo, jonathan, carlos, howard, ray, 200, rick, lei, jason, tommy
+
+for member in members
+  #avatar-{member}
+    image: "/avatar/bg-avatar-" + member + ".png" 100%
 
 .member-social
   height: 38px
@@ -46,7 +49,7 @@
   color: #fff
   font-size: 12px
   display: block
-  padding: 10px 0 15px
+  padding: 5px 0 15px
   @media mq-normal
     font-size: 13px
 
@@ -54,9 +57,18 @@
   color: #000
   opacity: 0.3
   font-size: 13px
-  width: 200px
-  height: 60px
+  width: 250px
+  height: 200px
   margin: 0 auto
+  line-height: 20px
+  overflow: hidden
+  text-align: left
+  strong
+    font-weight: bold
+  em
+    font-style: italic
+  a
+    color: #000
 
 $member-social-link
   width: 20px
@@ -64,16 +76,42 @@ $member-social-link
   font-size: @width
   line-height: @width
   text-align: center
-  opacity: 0.5
+  opacity: 0.3
   color: #fff
   font-family: font-icon
   margin-top: (38px - @width) * 0.5
   display: inline-block
   text-decoration: none
+  transition: opacity 0.2s
+  margin-left: 20px
   @media mq-normal
     margin-top: (40px - @width) * 0.5
+  &:hover
+    opacity: 0.5
+  &:first-child
+    margin-left: 0
 
 .member-twitter-link
   @extend $member-social-link
   &:before
-    content: "\f099"
+    content: "\e600"
+
+.member-github-link
+  @extend $member-social-link
+  &:before
+    content: "\e602"
+
+.member-dribbble-link
+  @extend $member-social-link
+  &:before
+    content: "\e603"
+
+.member-blog-link
+  @extend $member-social-link
+  &:before
+    content: "\e604"
+
+.member-instagram-link
+  @extend $member-social-link
+  &:before
+    content: "\e601"

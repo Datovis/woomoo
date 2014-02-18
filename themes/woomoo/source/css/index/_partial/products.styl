@@ -1,5 +1,7 @@
 #products
   background: screen-products
+  @media mq-normal
+    min-height: 800px
 
 .product-logo
   hide-text()
@@ -10,6 +12,9 @@
   height: 143px
   image: "images/bg-bg-pop-logo-mobile.png" @width @height
   margin: 60px auto 35px
+  transition: opacity 0.2s
+  &:hover
+    opacity: 0.7
   @media mq-normal
     width: 300px
     height: 100px
@@ -19,9 +24,8 @@
 .product-desc
   margin: 0 20px
   font-size: 18px
-  font-weight: bold
   line-height: 25px
-  opacity: 0.4
+  opacity: 0.2
   color: #000
   @media mq-normal
     width: 400px

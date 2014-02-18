@@ -5,20 +5,24 @@
 global-reset()
 
 @font-face
-  font-family: FontAwesome
+  font-family: icomoon
   font-style: normal
   font-weight: normal
-  src: url(font-icon-path + ".eot?v=#" + font-icon-version)
-  src: url(font-icon-path + ".eot?#iefix&v=#" + font-icon-version) format("embedded-opentype"),
-       url(font-icon-path + ".woff?v=#" + font-icon-version) format("woff"),
-       url(font-icon-path + ".ttf?v=#" + font-icon-version) format("truetype"),
-       url(font-icon-path + ".svg#fontawesomeregular?v=#" + font-icon-version) format("svg")
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  src: url(font-icon-path + ".eot")
+  src: url(font-icon-path + ".eot?#iefix") format("embedded-opentype"),
+       url(font-icon-path + ".woff") format("woff"),
+       url(font-icon-path + ".ttf") format("truetype"),
+       url(font-icon-path + ".svg") format("svg")
 
 body
   font-family: font-sans
 
 #wrap
   position: relative
+  @media mq-mobile
+    margin-top: 60px
 
 .screen
   text-align: center
@@ -26,7 +30,6 @@ body
 
 .screen-title
   font-size: 25px
-  font-weight: bold
   color: #fff
   opacity: 0.5
   text-transform: uppercase

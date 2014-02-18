@@ -2,6 +2,8 @@
   background: screen-intro
   @media mq-mobile
     padding-bottom: 60px
+  @media mq-normal
+    min-height: 700px
 
 #logo
   hide-text()
@@ -24,18 +26,19 @@
   width: 280px
   line-height: 20px
   margin: 0 auto
+  text-align: justify
   @media mq-normal
-    font-size: 20px
+    font-size: 18px
     line-height: 30px
-    width: 700px
+    width: 750px
 
 #intro-blog
   display: none
   @media mq-normal
     display: block
     font-size: 15px
-    color: #e6dfce
-    border: 2px solid rgba(154, 138, 91, 0.3)
+    color: color-tagline
+    border: 2px solid color-tagline
     border-radius: 5px
     position: absolute
     top: 28px
@@ -45,13 +48,16 @@
     line-height: @height
     text-align: center
     text-decoration: none
+    transition: opacity 0.2s
+    &:hover
+      opacity: 0.5
 
 #scroll-down
   display: none
   @media mq-normal
     display: block
-    font-size: 18px
-    color: rgba(154, 138, 91, 0.3)
+    font-size: 15px
+    color: rgba(153, 137, 91, 0.5)
     text-decoration: none
     position: absolute
     bottom: 30px

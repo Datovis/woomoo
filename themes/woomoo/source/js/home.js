@@ -2,7 +2,8 @@
   var screens = $('.screen'),
     $body = $('html, body'),
     $window = $(window),
-    currentId = 'intro';
+    currentId = 'intro',
+    speed = 700;
 
   var setIndicator = function(id){
     if (currentId === id) return;
@@ -11,6 +12,9 @@
 
     $('.indicator-link').removeClass('active');
     $('#indicator-' + id).addClass('active');
+
+    $('.mobile-nav-link').removeClass('active');
+    $('#mobile-nav-' + id).addClass('active');
   };
 
   var scrollTo = function(id){
@@ -18,10 +22,10 @@
 
     $body.animate({
       scrollTop: target[0].offsetTop
-    }, 800);
+    }, speed);
   };
 
-  $window.on('scroll', function(){
+  var updateIndicator = function(){
     var scrollTop = $(this).scrollTop(),
       id;
 
@@ -30,7 +34,10 @@
     });
 
     setIndicator(id);
-  });
+  };
+
+  $window.on('scroll', updateIndicator);
+  updateIndicator();
 
   $body.on('click', 'a', function(e){
     if (this.hash){

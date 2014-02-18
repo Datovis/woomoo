@@ -7,9 +7,7 @@
     <% if (index && post.excerpt){ %>
       <%- post.excerpt %>
       <% if (theme.excerpt_link){ %>
-        <p class="article-more-link">
-          <a href="<%- config.root %><%- post.path %>#more">Read more</a>
-        </p>
+        <a href="<%- config.root %><%- post.path %>#more" class="article-more-link">Read more</a>
       <% } %>
     <% } else { %>
       <%- post.content %>
