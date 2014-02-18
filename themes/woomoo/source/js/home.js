@@ -3,7 +3,8 @@
     $body = $('html, body'),
     $window = $(window),
     currentId = 'intro',
-    speed = 700;
+    speed = 700,
+    isScrolling = false;
 
   var setIndicator = function(id){
     if (currentId === id) return;
@@ -19,10 +20,13 @@
 
   var scrollTo = function(id){
     var target = $('#' + id);
+    isScrolling = true;
 
     $body.animate({
       scrollTop: target[0].offsetTop
-    }, speed);
+    }, speed, function(){
+      isScrolling = false;
+    });
   };
 
   var updateIndicator = function(){
@@ -42,7 +46,7 @@
   $body.on('click', 'a', function(e){
     if (this.hash){
       e.preventDefault();
-      scrollTo(this.hash.substring(1));
+      if (!isScrolling) scrollTo(this.hash.substring(1));
     }
   });
 
