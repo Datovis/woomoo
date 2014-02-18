@@ -10,7 +10,7 @@
       title = 'Archives: ' + page.year + '/' + page.month;
     } else if (is_year()){
       title = 'Archives: ' + page.year;
-    } else {
+    } else if (!title){
       title = 'Blog';
     }
   } else if (is_category()){
