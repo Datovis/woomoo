@@ -65,4 +65,8 @@
   $('#mobile-nav-toggle').on('click', function(){
     $('#mobile-nav').toggleClass('on');
   });
+
+  var easterEgg = new Konami(function(){
+    $('.easter-egg').fadeIn(500);
+  });
 })(jQuery);
