@@ -43,7 +43,7 @@
     var wrapWidth = $window.width(),
       wrapHeight = $window.height();
 
-    screens.not('#crew').each(function(){
+    screens.not('#team').each(function(){
       if (wrapWidth > 768){
         $(this).css('height', wrapHeight);
       } else {
