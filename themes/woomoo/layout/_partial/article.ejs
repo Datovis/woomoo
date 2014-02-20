@@ -2,13 +2,15 @@
   <div class="article-header">
     <%- partial('post/title', {class_name: 'article-title'}) %>
     <%- partial('post/date') %>
-    <%- partial('post/share', {class_name: 'article-share-header'}) %>
+    <% if (!index){ %>
+      <%- partial('post/share', {class_name: 'article-share-header'}) %>
+    <% } %>
   </div>
   <div class="article-entry" itemprop="articleBody">
     <% if (index && post.excerpt){ %>
       <%- post.excerpt %>
       <% if (theme.excerpt_link){ %>
-        <a href="<%- config.root %><%- post.path %>#more" class="article-more-link">Read more</a>
+        <a href="<%- config.root %><%- post.path %>#more" class="article-more-link"><%= theme.excerpt_link %></a>
       <% } %>
     <% } else { %>
       <%- post.content %>
