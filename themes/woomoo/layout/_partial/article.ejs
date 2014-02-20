@@ -2,6 +2,7 @@
   <div class="article-header">
     <%- partial('post/title', {class_name: 'article-title'}) %>
     <%- partial('post/date') %>
+    <%- partial('post/share', {class_name: 'article-share-header'}) %>
   </div>
   <div class="article-entry" itemprop="articleBody">
     <% if (index && post.excerpt){ %>
@@ -15,6 +16,6 @@
   </div>
   <div class="article-footer">
     <%- partial('post/author') %>
-    <%- partial('post/share') %>
+    <%- partial('post/share', {class_name: 'article-share-footer'}) %>
   </div>
 </div>

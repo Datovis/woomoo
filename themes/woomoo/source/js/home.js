@@ -2,7 +2,7 @@
   var screens = $('.screen'),
     $body = $('html, body'),
     $window = $(window),
-    currentId = 'intro',
+    currentId,
     speed = 700,
     isScrolling = false;
 
@@ -54,7 +54,7 @@
     var wrapWidth = $window.width(),
       wrapHeight = $window.height();
 
-    screens.not('#team').each(function(){
+    $('#intro').each(function(){
       if (wrapWidth > 768){
         $(this).css('height', wrapHeight);
       } else {
@@ -65,10 +65,6 @@
 
   $window.on('resize', setScreenSize);
   setScreenSize();
-
-  $('#mobile-nav-toggle').on('click', function(){
-    $('#mobile-nav').toggleClass('on');
-  });
 
   var easterEgg = new Konami(function(){
     $('.easter-egg').fadeIn(500);

@@ -1,6 +1,6 @@
 .article
   padding-bottom: 15px
-  border-bottom: 2px solid rgba(0, 0, 0, 0.1)
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1)
   margin: 54px 0
   @media mq-normal
     margin: 80px 0
@@ -45,13 +45,11 @@
   line-height: 25px
   font-size: font-size-content
   text-align: justify
-  p
+  p, ul, ol
     margin: 30px 0
   a
     color: color-default
     font-weight: bold
-    &:visited
-      color: color-visited
     &:hover
       color: color-highlight
   strong
@@ -83,6 +81,14 @@
     font-size: font-size-h2
   h3
     font-size: font-size-h3
+  ul
+    list-style: disc
+  ol
+    list-style: decimal
+  ul, ol
+    margin-left: 20px
+    ul, ol
+      margin-top: 0
   // http://webdesignerwall.com/tutorials/css-elastic-videos
   .video-container
     position: relative
@@ -130,8 +136,7 @@
   font-size: 12px
   text-align: center
 
-.article-share
-  margin-top: 15px
+$article-share
   .fb-like
     display: inline-block !important
     width: auto !important
@@ -139,6 +144,15 @@
     position: relative
     top: 4px
     padding-left: 10px
+
+.article-share-header
+  @extend $article-share
+  display: inline-block
+  padding-left: 15px
+
+.article-share-footer
+  @extend $article-share
+  margin-top: 15px
   @media mq-normal
     float: right
     margin-top: 0

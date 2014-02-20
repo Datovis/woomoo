@@ -13,6 +13,8 @@ It also works for private projects. You can set it privately and share to limite
 
 如果說創業家們喜歡把自己比喻做海賊王，那矽谷可以算的上是偉大的航路了。大家總是期盼著心中那個天馬行空的絕妙點子有實現的一天。至少這四年來我一直是這麼畔著的。美國夢，彷彿近在咫尺卻又那麼遙不可及。
 
+<!-- more -->
+
 ### After Launch Party
 
 [POP](http://popapp.in/) 慶功宴當晚當大家都喝個爛醉不省人事的時候，只有 [Shao](https://twitter.com/wraecca) ( 註一 ) 發現我們悄悄的上了 [Hacker News](http://news.ycombinator.com/item?id=4789281)。他興奮的在空無一人的公司聊天室為大家即時報導著，『 第三名，第二名，第一名，我們上頭條了！！！ 』。隔天醒來信箱裡躺著好幾封使用者寄來的信，仔細一看裡面竟然包含了一些國外業界名人。雖然在興奮之餘覺得一切太不真實，但在心中已經暗自決定是時候去美國闖闖了！
