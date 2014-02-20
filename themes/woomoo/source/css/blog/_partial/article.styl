@@ -35,8 +35,9 @@
     height: 15px
     image: "images/bg-icon-time.png" @width @height
     position: absolute
-    top: 2px
     left: 0
+    @media mq-normal
+      top: 2px
   @media mq-normal
     font-size: 14px
 
@@ -147,8 +148,11 @@ $article-share
 
 .article-share-header
   @extend $article-share
-  display: inline-block
-  padding-left: 15px
+  @media mq-mobile
+    padding-top: 15px
+  @media mq-normal
+    display: inline-block
+    padding-left: 15px
 
 .article-share-footer
   @extend $article-share
