@@ -39,11 +39,14 @@ $contact-text
   @extend $contact-text
   padding-top: 15px + 21px
   text-decoration: none
+  transition: opacity 0.2s
   &:before
     width: 30px
     height: 21px
     margin-left: @width * -0.5
     image: "images/bg-icon-mail.png" @width @height
+  &:hover
+    opacity: 0.5
   @media mq-normal
     display: inline-block
     padding-top: 0
