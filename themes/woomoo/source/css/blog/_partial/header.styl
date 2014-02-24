@@ -6,6 +6,8 @@
   height: 96px
   image: "images/bg-bg-logo-mobile.png" @width @height
   transition: opacity 0.2s
-  margin: (280px - @height) * 0.5 auto
+  margin: 90px auto
+  @media mq-normal
+    margin: 125px auto
   &:hover
     opacity: 0.5

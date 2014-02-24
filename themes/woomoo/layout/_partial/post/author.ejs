@@ -1,6 +1,7 @@
-<% if (post.author || config.author){ %>
+<% var author = post.author || config.author; %>
+<% if (author){ %>
   <div class="article-author">
-    <img src="<%- author_avatar(post.author || config.author) %>" class="article-author-avatar">
-    <span class="article-author-text">Posted by <%= post.author || config.author %></span>
+    <img src="<%- author_avatar(author) %>" class="article-author-avatar">
+    <span class="article-author-text">Posted by <strong><%= author %></strong></span>
   </div>
 <% } %>

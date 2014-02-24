@@ -4,10 +4,14 @@
 
 global-reset()
 
+html, body
+  overflow-x: hidden
+
 body
   background: color-background
   color: color-default
   font: font-size-content font-sans
+  -webkit-text-size-adjust: 100%
 
 .outer
   clearfix()
