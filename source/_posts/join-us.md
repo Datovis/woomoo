@@ -1,6 +1,7 @@
-title: We are hiring
+title: 加入我們
 date: 2014-02-24 10:24:58
 tags:
+author: Ben Lin
 
 ---
 
