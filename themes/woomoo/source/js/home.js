@@ -31,7 +31,7 @@
 
   var updateIndicator = function(){
     var scrollTop = $(this).scrollTop(),
-      id;
+      id = 'intro';
 
     screens.each(function(){
       if (scrollTop >= this.offsetTop - 10) id = this.id;
