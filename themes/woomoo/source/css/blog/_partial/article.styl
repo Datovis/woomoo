@@ -10,6 +10,7 @@
 .article-title
   text-decoration: none
   font-weight: bold
+  text-align: center
   color: color-title
   font-size: 30px
   line-height: 40px
@@ -19,10 +20,10 @@
     margin-bottom: 10px
 
 .article-date
-  text-decoration: none
+  text-align: center
   font-size: 14px
   color: rgba(154, 138, 91, 0.5)
-  position: relative
+  display: block
 
 .article-entry
   color: color-default
@@ -135,11 +136,8 @@ $article-share
 
 .article-share-header
   @extend $article-share
-  @media mq-mobile
-    padding-top: 15px
-  @media mq-normal
-    display: inline-block
-    padding-left: 15px
+  padding-top: 15px
+  text-align: center
 
 .article-share-footer
   @extend $article-share
