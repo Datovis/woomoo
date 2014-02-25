@@ -16,5 +16,5 @@ var authors = {
 };
 
 hexo.extend.helper.register('author_avatar', function(name){
-  return '/avatar/bg-avatar-' + authors[name] + '.png';
+  return '/img/avatar/bg-avatar-' + authors[name] + '.png';
 });
