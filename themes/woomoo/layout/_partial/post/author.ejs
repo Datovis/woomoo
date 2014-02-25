@@ -2,6 +2,6 @@
 <% if (author){ %>
   <div class="article-author">
     <img src="<%- author_avatar(author) %>" class="article-author-avatar">
-    <span class="article-author-text">Posted by <strong><%= author %></strong></span>
+    <span class="article-author-text">Posted by <strong itemprop="author"><%= author %></strong></span>
   </div>
 <% } %>
