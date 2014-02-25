@@ -7,7 +7,7 @@ title: WOOMOO
 subtitle:
 description:
 author: Lei Lei Wu
-email:
+email: leilei@woomoo.in
 language:
 
 # URL
@@ -75,7 +75,7 @@ per_page: 10
 pagination_dir: page
 
 # Disqus
-disqus_shortname:
+disqus_shortname: woomoo
 
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
