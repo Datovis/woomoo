@@ -1,6 +1,6 @@
 title: First gril Lei Lei Wu in the Team
 date: 2013-09-18 10:20:00
-tags: New Hires
+tags: New Member
 author: Ben Lin
 ---
 

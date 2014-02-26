@@ -1,6 +1,6 @@
 title: Ray Shih Is a Woomooer
 date: 2013-06-01 10:20:00
-tags: New Hires
+tags: New Member
 author: Ben Lin
 ---
 

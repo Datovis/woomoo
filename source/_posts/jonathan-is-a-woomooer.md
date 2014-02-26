@@ -1,6 +1,6 @@
 title: Jonathan Dang Is a Woomooer
 date: 2013-02-25 10:20:00
-tags: New Hires
+tags: New Member
 author: Ben Lin
 ---
 

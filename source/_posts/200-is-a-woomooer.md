@@ -1,6 +1,6 @@
 title: Ding Yu Lin Is a Woomooer
 date: 2013-08-22 10:20:00
-tags: New Hires
+tags: New Member
 author: Ben Lin
 ---
 

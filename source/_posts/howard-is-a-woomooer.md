@@ -1,6 +1,6 @@
 title: Howard Huang Is a Woomooer
 date: 2013-04-01 10:20:00
-tags: New Hires
+tags: New Member
 author: Ben Lin
 ---
 

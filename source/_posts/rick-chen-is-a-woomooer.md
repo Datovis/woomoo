@@ -1,6 +1,6 @@
 title: Rick Chen Is a Woomooer
 date: 2013-09-09 10:20:00
-tags: New Hires
+tags: New Member
 author: Ben Lin
 ---
 

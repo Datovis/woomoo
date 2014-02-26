@@ -1,6 +1,6 @@
 title: Jason Peng Is a Woomooer
 date: 2013-10-07 10:20:00
-tags: New Hires
+tags: New Member
 author: Ben Lin
 ---
 
