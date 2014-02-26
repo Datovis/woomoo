@@ -1,4 +1,4 @@
-title: First gril Lei Lei Wu in the Team
+title: First Girl Lei Lei Wu in the Team
 date: 2013-09-18 10:20:00
 tags: New Member
 author: Ben Lin
