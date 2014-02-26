@@ -4,6 +4,11 @@
   "private": true,
   "dependencies": {
     "hexo-renderer-jade": "0.0.2",
+    "hexo-generator-feed": "0.1.0",
+    "hexo-generator-sitemap": "0.1.0",
+    "hexo-generator-minify": "0.1.0"
+  },
+  "devDependencies": {
     "hexo-livereload": "0.0.1"
   }
 }

@@ -4,7 +4,7 @@ tarball=tmp.tar.bz2
 current=$WOOMOO_PATH`date +"%Y%m%d%H%M%S"`
 
 echo 'Building static files...'
-hexo g
+hexo gm --cssSafe
 echo '...done!'
 echo ''
 
