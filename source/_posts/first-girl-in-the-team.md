@@ -10,4 +10,4 @@ In her spare time, she does yoga and exercise a lot, drinks coffee, and eats lik
 
 ![Lei Lei Wu](/img/profile/lei-lei-wu.png)
 
-You can folow her on [Twitter](https://twitter.com/leilei0920).
+You can follow her on [Twitter](https://twitter.com/leilei0920).
