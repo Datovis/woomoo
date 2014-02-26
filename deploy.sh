@@ -26,13 +26,13 @@ echo '...done!'
 echo ''
 
 echo 'Move tmp files to www-data WOOMOO_USER & change owner...'
-ssh -p $WOOMOO_PORT -t $WOOMOO_USER@$WOOMOO_HOST "sudo mv $WOOMOO_TMP $current"
-ssh -p $WOOMOO_PORT -t $WOOMOO_USER@$WOOMOO_HOST "sudo chown -R www-data:www-data $current"
+ssh -p $WOOMOO_PORT -t $WOOMOO_USER@$WOOMOO_HOST "echo $WOOMOO_PASS | sudo -S mv $WOOMOO_TMP $current"
+ssh -p $WOOMOO_PORT -t $WOOMOO_USER@$WOOMOO_HOST "echo $WOOMOO_PASS | sudo -S chown -R www-data:www-data $current"
 echo '...done!'
 echo ''
 
 echo 'Switching the server to the latest version...'
-ssh -p $WOOMOO_PORT -t $WOOMOO_USER@$WOOMOO_HOST "sudo rm -rf $WOOMOO_PATH"
-ssh -p $WOOMOO_PORT -t $WOOMOO_USER@$WOOMOO_HOST "sudo cp -R $current $WOOMOO_PATH"
-ssh -p $WOOMOO_PORT -t $WOOMOO_USER@$WOOMOO_HOST "sudo chown -R www-data:www-data $WOOMOO_PATH"
+ssh -p $WOOMOO_PORT -t $WOOMOO_USER@$WOOMOO_HOST "echo $WOOMOO_PASS | sudo -S rm -rf $WOOMOO_PATH"
+ssh -p $WOOMOO_PORT -t $WOOMOO_USER@$WOOMOO_HOST "echo $WOOMOO_PASS | sudo -S cp -R $current $WOOMOO_PATH"
+ssh -p $WOOMOO_PORT -t $WOOMOO_USER@$WOOMOO_HOST "echo $WOOMOO_PASS | sudo -S chown -R www-data:www-data $WOOMOO_PATH"
 echo '...done!'
