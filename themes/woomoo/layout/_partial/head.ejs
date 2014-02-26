@@ -21,7 +21,18 @@
   %>
   <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus}) %>
+  <%- open_graph({
+    type: 'website',
+    image: theme.thumb,
+    title: theme.title,
+    description: theme.description,
+    twitter_id: theme.twitter,
+    google_plus: theme.google_plus,
+    fb_admins: 1303233785}) %>
+  <meta name="twitter:site" content="@<%= theme.twitter %>">
+  <meta name="twitter:title" content="<%= config.title %>">
+  <meta name="twitter:description" content="<%= config.description %>">
+  <meta name="twitter:image:src" content="<%= theme.thumb %>">
   <% if (theme.rss){ %>
     <link rel="alternative" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
   <% } %>
