@@ -6,7 +6,7 @@ author: Leo Lin
 
 [Lean UX - Applying Lean Principles to Improve User Experience](http://shop.oreilly.com/product/0636920021827.do)
 
-![Lean UX - Applying Lean Principles to Improve User Experience](/img/posts/pop-in-a-book-lean-ux-applying-lean-principles-to-improve-user-experience/lean-ux.jpg)
+![Lean UX - Applying Lean Principles to Improve User Experience](/img/posts/pop-in-a-book-lean-ux-applying-lean-principles-to-improve-user-experience/lean-ux.png)
 
 One of our friend is reading a new book called "Lean UX - Applying Lean Principles to Improve User Experience" by Jeff Gothelf and found our app is mentioned in the book.
 
