@@ -6,7 +6,7 @@ author: Ben Lin
 
 We are thrilled to welcome Jonathan to be the first Woomooer! He used to work with Shao in [Jiepang](jiepang.com) and is very passionate about developing developer tools. He will mainly be working on the web frontend development of POP.
 
-Jonathan was once a platoon leader while serving in the Army. He likes to travel and had conquered the highest mountain Yushan in Taiwan twice! (yeah, I know it’s a bit ironic with the photo attached.)
+Jonathan was once a platoon leader while serving in the Army. He likes to travel and had conquered the highest mountain Yushan in Taiwan twice! (yeah, I know it's a bit ironic with the photo attached.)
 
 ![Jonathan Dang](/img/profile/jonathan-dang.png)
 

@@ -4,4 +4,4 @@ tags: Media Coverage
 author: Leo Lin
 ---
 
-We are featured on a design blog ["Sense of Medium"](http://blog.junyamori.com/2012/11/13/pop-is-app-for-paper-prototyping/) by JUNYAmori in Japan. Thanks for mentioning and we’d love to hear your feedback.
+We are featured on a design blog ["Sense of Medium"](http://blog.junyamori.com/2012/11/13/pop-is-app-for-paper-prototyping/) by JUNYAmori in Japan. Thanks for mentioning and we'd love to hear your feedback.

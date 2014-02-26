@@ -9,5 +9,5 @@ author: Leo Lin
 Alli Dryer shares how to use POP.
 
 {% quote %}
-POP is a great tool because everything is happening at one to one scale: you sketch your ideas out at full size on a sketch pad, snap a photo with your phone, and then test your prototype in the exact setting in which your users will experience your app (the iPhone). Proper context gives you a clearer understanding of the experience you’re creating and makes it easier to communicate it to others.
+POP is a great tool because everything is happening at one to one scale: you sketch your ideas out at full size on a sketch pad, snap a photo with your phone, and then test your prototype in the exact setting in which your users will experience your app (the iPhone). Proper context gives you a clearer understanding of the experience you are creating and makes it easier to communicate it to others.
 {% endquote %}
