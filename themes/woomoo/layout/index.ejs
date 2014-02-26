@@ -6,6 +6,23 @@ layout: false
   <meta charset="UTF-8">
   <title><%= config.title %></title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- Apple -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- SEO -->
+  <meta name="description" content="<%= config.description %>" />
+  <%- open_graph({
+    type: 'website',
+    image: theme.thumb,
+    title: theme.title,
+    description: theme.description,
+    twitter_id: theme.twitter,
+    google_plus: theme.google_plus,
+    fb_admins: 1303233785}) %>
+  <meta name="twitter:site" content="@<%= theme.twitter %>">
+  <meta name="twitter:title" content="<%= config.title %>">
+  <meta name="twitter:description" content="<%= config.description %>">
+  <meta name="twitter:image:src" content="<%= theme.thumb %>">
   <%- css('css/index/style') %>
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
