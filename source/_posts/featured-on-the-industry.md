@@ -2,7 +2,6 @@ title: Featured on The Industry
 date: 2012-12-09 20:33:00
 tags: Media Coverage
 author: Leo Lin
-
 ---
 
 **[POP: Turn Your Paper Mockups into Working Prototypes](http://theindustry.cc/2012/12/07/pop-turn-your-paper-mockups-into-working-prototypes/)**

@@ -2,7 +2,6 @@ title: Chop Cards from New York!
 date: 2012-12-17 01:22:00
 tags: Utilities
 author: Leo Lin
-
 ---
 
 This afternoon we received a package from Philadelphia, and it turned out to be a gift from [Chop Shop](http://chopshopstore.com/index.php/chopcards-mobile.html) called "Chop Cards Mobile".

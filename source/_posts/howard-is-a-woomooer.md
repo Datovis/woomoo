@@ -2,7 +2,6 @@ title: Howard Huang is a Woomooer
 date: 2013-04-01 10:20:00
 tags: New Hires
 author: Ben Lin
-
 ---
 
 Howard joins WOOMOO as an iOS developer to help Shao on the iOS team. With his experience of 5 years programming and worked in different startups and agencies, we are sure POP is going to be stronger!

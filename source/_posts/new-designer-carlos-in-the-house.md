@@ -2,7 +2,6 @@ title: New Designer Carlos in The House
 date: 2013-03-18 10:20:00
 tags: New Hires
 author: Ben Lin
-
 ---
 
 We are delighted to welcome Carlos to join us as a UI/UX designer. He used to work with Shao in [Jiepang](jiepang.com) and has more than 10 years experience in design. We are very excited to his talent melt into POP.

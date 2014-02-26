@@ -2,7 +2,6 @@ title: 24 ways: Fluent Design through Early Prototyping
 date: 2012-12-19 06:34:00
 tags: Media Coverage
 author: Leo Lin
-
 ---
 
 **[Fluent Design through Early Prototyping](http://24ways.org/2012/fluent-design-through-early-prototyping/)**
