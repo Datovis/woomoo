@@ -1,4 +1,4 @@
-title: Featured on The Industry
+title: Featured on "The Industry"
 date: 2012-12-09 20:33:00
 tags: Media Coverage
 author: Leo Lin

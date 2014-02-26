@@ -1,4 +1,4 @@
-title: Jonathan Dang is a Woomooer
+title: Jonathan Dang Is a Woomooer
 date: 2013-02-25 10:20:00
 tags: New Hires
 author: Ben Lin

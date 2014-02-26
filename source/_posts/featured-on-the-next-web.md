@@ -1,4 +1,4 @@
-title: Featured on The Next Web
+title: Featured on "The Next Web"
 date: 2012-11-16 20:05:00
 tags: Media Coverage
 author: Leo Lin

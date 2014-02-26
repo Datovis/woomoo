@@ -1,4 +1,4 @@
-title: New Designer Carlos in The House
+title: New Designer Carlos in the House
 date: 2013-03-18 10:20:00
 tags: New Hires
 author: Ben Lin

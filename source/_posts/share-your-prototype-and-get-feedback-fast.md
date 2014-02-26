@@ -1,4 +1,4 @@
-title: Share your prototype and get feedback fast!
+title: Share Your Prototype and Get Feedback Fast!
 date: 2013-08-05 12:30:00
 tags: Release Note
 author: Shao Lee
