@@ -9,6 +9,7 @@ echo '...done!'
 echo ''
 
 echo 'Compressing local files...'
+rm -rf tmp tmp.tar.bz2
 mv public tmp
 tar cvfj $tarball tmp
 echo '...done!'
