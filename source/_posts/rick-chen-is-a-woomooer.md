@@ -2,6 +2,7 @@ title: Rick Chen Is a Woomooer
 date: 2013-09-09 10:20:00
 tags: New Member
 author: Ben Lin
+description: We are happy to welcome Rick to our iOS team to bring our iOS development to the next level. He has more than 10 years' experience on programming.
 ---
 
 We are happy to welcome Rick to our iOS team to bring our iOS development to the next level. He has more than 10 years' experience on programming and has worked at different agencies.

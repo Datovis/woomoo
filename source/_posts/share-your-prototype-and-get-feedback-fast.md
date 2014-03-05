@@ -2,6 +2,7 @@ title: Share Your Prototype and Get Feedback Fast!
 date: 2013-08-05 12:30:00
 tags: Release Note
 author: Shao Lee
+description: We just released POP iOS 1.7.0 today. Now POP is not only a prototyping tool, but also a collaboration service.
 ---
 
 We just released [POP iOS 1.7.0](https://itunes.apple.com/us/app/pop-prototyping-on-paper/id555647796?mt=8) today. Now POP is not only a prototyping tool, but also a collaboration service.

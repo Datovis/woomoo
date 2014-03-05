@@ -2,6 +2,7 @@ title: POP in a book: "Lean UX - Applying Lean Principles to Improve User Experi
 date: 2013-03-03 23:58:00
 tags: Media Coverage
 author: Leo Lin
+description: One of our friend is reading a new book called "Lean UX - Applying Lean Principles to Improve User Experience" by Jeff Gothelf and found our app is mentioned in the book.
 ---
 
 [Lean UX - Applying Lean Principles to Improve User Experience](http://shop.oreilly.com/product/0636920021827.do)

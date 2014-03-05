@@ -2,6 +2,7 @@ title: 10 Steps to Prototyping with POP - BAD YEWEX
 date: 2013-03-04 01:49:00
 tags: Media Coverage
 author: Leo Lin
+description: Sketch your ideas out, snap a photo with your phone, and test your prototype in the exact setting in which your users will experience your app.
 ---
 
 [10 Steps to Prototyping with POP](http://badyewex.com/words/2013/2/21/10-steps-to-prototyping-with-pop-app)

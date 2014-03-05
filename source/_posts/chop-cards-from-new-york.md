@@ -2,6 +2,7 @@ title: Chop Cards from New York!
 date: 2012-12-17 01:22:00
 tags: Utilities
 author: Leo Lin
+description: Chop Cards have 1:1 accurate iPhone frame printed on them, and you can hold the card in one hand comfortably like holding an iPhone.
 ---
 
 This afternoon we received a package from Philadelphia, and it turned out to be a gift from [Chop Shop](http://chopshopstore.com/index.php/chopcards-mobile.html) called "Chop Cards Mobile".

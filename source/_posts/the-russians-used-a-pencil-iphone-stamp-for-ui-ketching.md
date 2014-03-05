@@ -2,6 +2,7 @@ title: The Russians Used a Pencil: iPhone Stamp for UI Sketching
 date: 2013-04-26 09:49:00
 tags: Utilities
 author: Shao Lee
+description: Make your own custom iPhone stamp!
 ---
 
 [The Russians Used a Pencil: iPhone Stamp for UI Sketching](www.therussiansusedapencil.com/post/48296041433/iphone-stamp-for-ui-sketching)

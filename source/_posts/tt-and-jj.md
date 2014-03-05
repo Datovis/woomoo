@@ -2,6 +2,7 @@ title: TT & JJ
 date: 2012-06-07 10:20:00
 tags: New Member
 author: Ben Lin
+description: TT- the thinner one, careless, playful, and energetic like a little boy. JJ - the chubby one, sensitive and likes to whine about everything.
 ---
 
 Cats. Even though we got scratched every time when trying to grab them, were ignored most of the time when trying to please them, and were even allergic to their falling hair everywhere!! Still, it took us 0.1 second to make the decision of bringing them to the WOOMOO family.

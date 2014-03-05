@@ -2,6 +2,7 @@ title: New: Private Projects and In App Sharing
 date: 2013-05-08 23:47:00
 tags: Release Note
 author: Leo Lin
+description: Now if you create or share your prototype, you'll be able to set the project private. Only invited members can view your private projects.
 ---
 
 POP 1.4 introduces two key features: private projects and in app sharing.

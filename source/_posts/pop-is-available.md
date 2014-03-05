@@ -2,6 +2,7 @@ title: POP Is Available
 date: 2012-11-11 21:31:00
 tags: Release Note
 author: Leo Lin
+description: POP is like Keynote for app screens. Simply take pictures of your paper prototypes, and you can add links to these images and make them interactive.
 ---
 
 [POP](https://popapp.in/) is an iPhone app for interactive prototypes. It's like Keynote for app screens. Simply take pictures of your paper prototypes or import Photoshop files, and you can add links to these images and make them interactive.
