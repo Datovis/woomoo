@@ -12,7 +12,8 @@ var authors = {
   'Jason Peng': 'jason',
   'Tommy Chen': 'tommy',
   'TT': 'tt',
-  'JJ': 'jj'
+  'JJ': 'jj',
+  'Huiyu Yang': 'huiyu'
 };
 
 hexo.extend.helper.register('author_avatar', function(name){
