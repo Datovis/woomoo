@@ -1,8 +1,8 @@
-title: Pirates vs Dragons by 7 year old Ben
-date: 2012-12-26 09:01:00
-tags: Showcase
-author: Leo Lin
-description: Check out this prototype made by Ben. It's the moment like this made us feel worthwhile.
+title: "Pirates vs Dragons by 7 year old Ben"
+date: "2012-12-26 09:01:00"
+tags: "Showcase"
+author: "Leo Lin"
+description: "Check out this prototype made by Ben. It's the moment like this made us feel worthwhile."
 ---
 
 Check out [this prototype](http://popapp.in/w#!/projects/50b60c33f5fbbcbe78000ba6/preview) made by Ben. It's the moment like this made us feel worthwhile.

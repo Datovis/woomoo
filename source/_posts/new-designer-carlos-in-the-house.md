@@ -1,8 +1,8 @@
-title: New Designer Carlos in the House
-date: 2013-03-18 10:20:00
-tags: New Member
-author: Ben Lin
-description: We are delighted to welcome Carlos to join us as a UI/UX designer. He used to work with Shao in Jiepang and has more than 10 years experience in design.
+title: "New Designer Carlos in the House"
+date: "2013-03-18 10:20:00"
+tags: "New Member"
+author: "Ben Lin"
+description: "We are delighted to welcome Carlos to join us as a UI/UX designer. He used to work with Shao in Jiepang and has more than 10 years experience in design."
 ---
 
 We are delighted to welcome Carlos to join us as a UI/UX designer. He used to work with Shao in [Jiepang](jiepang.com) and has more than 10 years experience in design. We are very excited to his talent melt into POP.

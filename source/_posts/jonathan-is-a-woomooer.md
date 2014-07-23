@@ -1,8 +1,8 @@
-title: Jonathan Dang Is a Woomooer
-date: 2013-02-25 10:20:00
-tags: New Member
-author: Ben Lin
-description: Jonathan used to work with Shao and is very passionate about developing developer tools. He will mainly be working on the web frontend development.
+title: "Jonathan Dang Is a Woomooer"
+date: "2013-02-25 10:20:00"
+tags: "New Member"
+author: "Ben Lin"
+description: "Jonathan used to work with Shao and is very passionate about developing developer tools. He will mainly be working on the web frontend development."
 ---
 
 We are thrilled to welcome Jonathan to be the first Woomooer! He used to work with Shao in [Jiepang](jiepang.com) and is very passionate about developing developer tools. He will mainly be working on the web frontend development of POP.

@@ -1,8 +1,8 @@
-title: Recommended Notebooks and Sheets for Wireframing
-date: 2012-11-15 10:21:00
-tags: Utilities
-author: Leo Lin
-description: We're always looking for good notebooks and sketch papers to use with POP. Here are some recommendations.
+title: "Recommended Notebooks and Sheets for Wireframing"
+date: "2012-11-15 10:21:00"
+tags: "Utilities"
+author: "Leo Lin"
+description: "We're always looking for good notebooks and sketch papers to use with POP. Here are some recommendations."
 ---
 
 We're always looking for good notebooks and sketch papers to use with POP. Here are some recommendations.

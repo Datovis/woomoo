@@ -1,8 +1,8 @@
-title: Ding Yu Lin Is a Woomooer
-date: 2013-08-22 10:20:00
-tags: New Member
-author: Ben Lin
-description: We are very lucky to have Ding Yu Lin (a.k.a 200 because he is 200 cm tall) comes to join WOOMOO just in time to support our Windows development.
+title: "Ding Yu Lin Is a Woomooer"
+date: "2013-08-22 10:20:00"
+tags: "New Member"
+author: "Ben Lin"
+description: "We are very lucky to have Ding Yu Lin (a.k.a 200 because he is 200 cm tall) comes to join WOOMOO just in time to support our Windows development."
 ---
 
 We are very lucky to have Ding Yu Lin (a.k.a 200 because he is 200 cm tall) comes to join WOOMOO just in time to support our Windows development. He is also good at web frontend and backend development which means he will be the firefighter of the team!
