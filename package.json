@@ -1,14 +1,17 @@
 {
   "name": "hexo",
-  "version": "2.4.5",
+  "version": "2.8.0",
   "private": true,
   "dependencies": {
-    "hexo-renderer-jade": "0.0.2",
-    "hexo-generator-feed": "0.1.0",
-    "hexo-generator-sitemap": "0.1.0",
-    "hexo-generator-minify": "0.1.0"
+    "hexo-generator-feed": "0.2.0",
+    "hexo-generator-sitemap": "0.2.0",
+    "hexo-generator-minify": "0.1.0",
+    "hexo-renderer-ejs": "*",
+    "hexo-renderer-jade": "0.1.0",
+    "hexo-renderer-stylus": "*",
+    "hexo-renderer-marked": "*"
   },
   "devDependencies": {
-    "hexo-livereload": "0.0.1"
+    "hexo-livereload": "0.1.0"
   }
 }
