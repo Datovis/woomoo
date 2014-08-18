@@ -65,8 +65,4 @@
 
   $window.on('resize', setScreenSize);
   setScreenSize();
-
-  var easterEgg = new Konami(function(){
-    $('.easter-egg').fadeIn(500);
-  });
 })(jQuery);

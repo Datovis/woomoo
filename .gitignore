@@ -3,3 +3,4 @@ node_modules
 db.json
 tmp
 tmp.tar.bz2
+*.log

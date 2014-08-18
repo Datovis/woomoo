@@ -13,7 +13,8 @@ var authors = {
   'Tommy Chen': 'tommy',
   'TT': 'tt',
   'JJ': 'jj',
-  'Huiyu Yang': 'huiyu'
+  'Huiyu Yang': 'huiyu',
+  'Gary Yeap': 'gary'
 };
 
 hexo.extend.helper.register('author_avatar', function(name){
