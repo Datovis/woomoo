@@ -3,6 +3,11 @@
 tarball=tmp.tar.bz2
 current=$WOOMOO_PATH`date +"%Y%m%d%H%M%S"`
 
+echo 'Clean cache...'
+hexo clean
+echo '...done!'
+echo ''
+
 echo 'Building static files...'
 hexo gm --cssSafe
 echo '...done!'
