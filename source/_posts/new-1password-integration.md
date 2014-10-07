@@ -2,16 +2,16 @@ title: "New - 1Password Integration"
 date: 2014-10-07 10:00:50
 tags: "New Release"
 author: "Lei Lei Wu"
-description: 
+description: "No more passwords needed for POP! With 1Password extension, you can now unlock your vault with Touch ID and log into your account with just a tap."
 ---
 
-No more passwords needed for POP!
+## No more passwords needed for POP!
+
 With 1Password extension, you can now unlock your vault with Touch ID and log into your account with just a tap. Take a look at the instruction videos and set up for your POP account now to free up your brain for things that are more important!
 
----
-## New to POP
+### For new POP users
 
-###### Step-by-step:
+#### Step-by-step:
 1.  `Create an Account` with POP.
 2.  Fill in the `User Name` and `Email Password` for the  first time.![create pop account](/img/posts/new-1password-integration/create-pop-account.png)
 3.  Pick one of the following:
@@ -22,13 +22,11 @@ With 1Password extension, you can now unlock your vault with Touch ID and log in
 4.  Log in to 1Password.
 5.  `Done` on the top right.
 
-You can also watch instruction video: [POP x 1Password - creat new account](http://youtu.be/q_N_a6lhynw) 
+You can also watch instruction video: <iframe width="420" height="315" src="//www.youtube.com/embed/q_N_a6lhynw" frameborder="0" allowfullscreen></iframe>
 
----
+### For existing POP users
 
-## Already a POP user
-
-###### Step-by-step:
+#### Step-by-step:
 1.  Enter `Email`.
 2.  Tap on 1Password icon on the right.
     ![existing-pop-login](/img/posts/new-1password-integration/existing-pop-login.png)
@@ -36,5 +34,5 @@ You can also watch instruction video: [POP x 1Password - creat new account](http
 	![login-to-POP-from-1password](/img/posts/new-1password-integration/login-to-POP-from-1password.png)
 4.  Auto fill in your password and log in for you.
 
-You can also watch instruction video: [POP x 1Password - existing account](http://youtu.be/lUc-JBj9rDA)
+You can also watch instruction video: <iframe width="420" height="315" src="//www.youtube.com/embed/lUc-JBj9rDA" frameborder="0" allowfullscreen></iframe>
 
