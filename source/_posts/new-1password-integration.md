@@ -22,7 +22,7 @@ With 1Password extension, you can now unlock your vault with Touch ID and log in
 4. 	Log in to 1Password.
 5. 	`Done` on the top right.
 
-You can also watch instruction video: POP x 1Password - new user <iframe width="420" height="315" src="//www.youtube.com/embed/q_N_a6lhynw" frameborder="0" allowfullscreen></iframe>
+You can also watch the instruction video: POP x 1Password - new user <iframe width="420" height="315" src="//www.youtube.com/embed/q_N_a6lhynw" frameborder="0" allowfullscreen></iframe>
 
 
 ### If you are already a POP user
@@ -35,4 +35,4 @@ You can also watch instruction video: POP x 1Password - new user <iframe width="
 	![login-to-POP-from-1password](/img/posts/new-1password-integration/login-to-POP-from-1password.png)
 4.  Auto fill in your password and log in for you.
 
-You can also watch instruction video: POP x 1Password - existing user <iframe width="420" height="315" src="//www.youtube.com/embed/lUc-JBj9rDA" frameborder="0" allowfullscreen></iframe>
+You can also watch the instruction video: POP x 1Password - existing user <iframe width="420" height="315" src="//www.youtube.com/embed/lUc-JBj9rDA" frameborder="0" allowfullscreen></iframe>
