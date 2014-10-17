@@ -14,7 +14,7 @@ With 1Password extension, you can now unlock your vault with Touch ID and log in
 1.  `Create an Account` with POP. Fill in the `User Name` , `Email` and `Password` for the  first time.
 	![create-pop-account](/img/posts/new-1password-integration/create-pop-account.png)
 
-3.  Pick one of the following to integrate POP with your 1Password account:
+2.  Pick one of the following to integrate POP with your 1Password account:
 
     - If you want to create your own password, fill in `Password` and tap on 1Password icon to save.
 
@@ -24,7 +24,7 @@ With 1Password extension, you can now unlock your vault with Touch ID and log in
 
 	![1password-auto-generate-password](/img/posts/new-1password-integration/1password-auto-generate-password.png)
 
-4.  Log in to 1Password and press `Done` on the top right.
+3.  Log in to 1Password and press `Done` on the top right.
 
 You can also watch the instruction video: POP x 1Password - new user <iframe width="420" height="315" src="//www.youtube.com/embed/q_N_a6lhynw" frameborder="0" allowfullscreen></iframe>
 
@@ -36,11 +36,11 @@ You can also watch the instruction video: POP x 1Password - new user <iframe wid
 
     ![existing-pop-login](/img/posts/new-1password-integration/existing-pop-login.png)
 
-3.  Choose your POP account to log in.
+2.  Choose your POP account to log in.
 
 	![login-to-POP-from-1password](/img/posts/new-1password-integration/login-to-POP-from-1password.png)
 
-4.  Auto fill in your password and log in for you.
+3.  Auto fill in your password and log in for you.
 
 You can also watch the instruction video: POP x 1Password - existing user
 <iframe width="420" height="315" src="//www.youtube.com/embed/lUc-JBj9rDA" frameborder="0" allowfullscreen></iframe>
